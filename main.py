@@ -1,27 +1,9 @@
-def plus(a=0, b=0):
-    print(a + b)
+def tax_calc(money):
+    return money * 0.35
 
 
-def minus(a=0, b=0):
-    print(a - b)
+def pay_tax(tax):
+    print("thank you for paying", tax)
 
 
-def multiplication(a=0, b=0):
-    print(a * b)
-
-
-def division(a=1, b=1):
-    print(a / b)
-
-
-plus()
-plus(5, 5)
-
-minus()
-minus(5, 5)
-
-multiplication()
-multiplication(5, 5)
-
-division()
-division(5, 5)
+pay_tax(tax_calc(696304324234))
