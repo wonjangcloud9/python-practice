@@ -1,8 +1,5 @@
-def say_hello():
-    print("hello I'm wonjang")
+def say_hello(name):
+    print(f"{name} It's me")
 
 
-def say_hello2():
-print("hello I'm wonjang")
-
-say_hello()
+say_hello("wonjang")
