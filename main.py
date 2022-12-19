@@ -1,10 +1,4 @@
-my_name = "wonjang"
-age = 28
-dead = False
+def say_hello():
+    print("hello I'm wonjang")
 
-print("Hello my name is", my_name)
-print("and I'm ", age, " years old")
-if dead:
-    print("I'm dead")
-else:
-    print("I'm alive")
+say_hello()
